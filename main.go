@@ -113,6 +113,7 @@ func main() {
 		var walletaddress string
 		walletaddress = createWallet("Prateek")
 		_ = walletaddress
+		fmt.Println("The wallet address is as", walletaddress)
 		//getBalance(walletaddress, "adsda")
 	}
 
